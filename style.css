@@ -391,4 +391,72 @@ margin-bottom: 4%;
 input {
     margin: 5%;
 }
+
+.pagina5 h3 span{
+    color: black;
+}
+.pagina5 #boton{
+    background:-webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    color: #ffffff;
+}
+
+.pagina6{
+    background-color: #222222;
+    padding: 5%;
+
+}
+
+.pagina6 .menu2  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%;
+
+}
+.pagina6 .menu2 ul li  {
+    list-style: none;
+    color: #ffffff;
+    display: inline;
+        font-size: 0.7em;
+        text-transform: uppercase;
+        padding: 1em;
     
+    
+
+}
+.pagina6 .menu2 ul li a  {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+
+}
+
+.pagina6 .social ul li {
+    list-style: none;
+    color: #ffffff;
+    display: inline;    
+    padding: 0.2em;
+
+
+    
+}
+
+.pagina6 .social  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+
+}
+
+.pagina6 .copyright{
+    margin-left: 20%;
+    color: #ffffff;
+}
+
+.pagina6 .copyright .heart{    
+    color: #bc5ede;
+}
+.pagina6 .copyright .colorib{    
+    color: #bc5ede;
+    text-decoration: none;
+}
