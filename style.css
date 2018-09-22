@@ -161,6 +161,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0%;
+    padding: 0%;
     
     color: #ffffffff;
     display: grid;
@@ -287,7 +289,17 @@ header {
 .pagina3 .ob{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
     
+}
+
+  
+.pagina3:hover .ob{
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+
 }
 
 .pagina4 {
@@ -301,13 +313,82 @@ color: #ffffffff;
 font-weight: initial;
 }
 
-.contenedor-pag1{
+.pagina4 .pag4int{
     position: relative;
     width: 100%;
-    height: 100%;     
+    height: 100%;
     background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
     opacity: 0.8;
+    font-size: 1.4em;
+    margin-bottom: 50%;
  
 }
+
+.main4 {
+        
+    height: 100%; 
+    z-index: 2;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+
+ }
+
+.entrada1 input{
+    margin-top: 20px;
+    border: 1px solid #8373ca;
+    line-height: 48px;
+    width: 100%;
+    display: block;
+    background: transparent;
+    padding: 0 25px;
+    color: #ffffff;
+}
+
+
+
+.main4 ::placeholder{
+    color: #ffffff;
+}
+
+.pagina5{
+    background-color: #f9f9ff;
+    padding: 5%;
+}
+}
+
+#username, #email {
+    height: 1em;
+    width: 60%;
+color: #ffffff;
+}
+
+#mens {
+    height: 4em;
+    width: 60%;
+    color: #ffffff;
+}
+
+.entrada1
+{
+margin-bottom: 4%;
+    justify-content: center;
     
+}
+.inp {
+    color: #ffffffff;
+    justify-content: center;
+    display: block;
+}
+
+.inp div {
+    padding: 3% 0;
+}
+
+input {
+    margin: 5%;
+}
     
